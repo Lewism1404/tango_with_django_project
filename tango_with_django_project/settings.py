@@ -25,6 +25,10 @@ MEDIA_URL = '/media/'
 STATIC_URL = '/static/'
 LOGIN_URL = 'rango:login'
 
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_COOKIE_AGE = 1209600  # 14 days in seconds
+
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
